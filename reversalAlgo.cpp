@@ -60,7 +60,7 @@ int main()
 
     for(int i=0; i<n; i++)
     {
-        cin>>arr[n];
+        cin>>arr[i];
     }
     rotateArray(arr, size, n);
     printArray(arr, size);
